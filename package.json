@@ -1,0 +1,13 @@
+{
+  "name": "biruh-tesfa-academy",
+  "version": "1.0.0",
+  "description": "Biruh Tesfa Academy root package configuration to start frontend and backend concurrently.",
+  "scripts": {
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
