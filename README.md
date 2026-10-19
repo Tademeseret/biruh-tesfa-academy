@@ -87,12 +87,6 @@ This creates the `biruh_tesfa_academy` database, all tables (`students`, `paymen
 `resources`, `announcements`, `gallery`, `admins`), and seeds one default director
 account:
 
-- **Email:** `director@biruhtesfa.edu.et`
-- **Password:** `ChangeMe123!`
-
-> ⚠️ Change this password immediately after your first login in a real deployment —
-> replace the seeded `password_hash` with a freshly generated `bcrypt` hash.
-
 ### 2. Backend setup
 
 ```bash
